@@ -29,16 +29,16 @@ Building this project as a beginner required immense patience, troubleshooting, 
 
 ## Bill of Materials (BOM) & Estimated Costs
 
-| No. | Item | Quantity | Purpose | Unit Price | Link / Sourcing | Cost |
-| :--- | :--- | :---: | :--- | :---: | :--- | :---: |
-| **1** | Waveshare ESP32-S3-Zero | 1 | Main MCU controller & USB MIDI interface | $4.50 | [Waveshare Store](https://www.waveshare.com/esp32-s3-zero.htm) | $4.50 |
-| **2** | Kailh Choc Low-Profile Switches | 12 | Primary musical key switches | $0.75 | [Adafruit #5118](https://www.adafruit.com/product/5118) | $9.00 |
-| **3** | SK6812 MINI-E NeoPixels | 12 | Per-key RGB backlight illumination | $0.20 | [Adafruit #4960](https://www.adafruit.com/product/4960) | $2.40 |
-| **4** | 10k Slide Potentiometers | 2 | Continuous analog parameter controls | $1.10 | [Adafruit #4219](https://www.adafruit.com/product/4219) | $2.20 |
-| **5** | EC11 Rotary Encoders w/ Switch | 2 | Parameter adjustment & navigation | $1.00 | [Adafruit #377](https://www.adafruit.com/product/377) | $2.00 |
-| **6** | 1N4148 SOD-123 Diodes | 12 | Matrix anti-ghosting switching diodes | $0.03 | [Adafruit #1928](https://www.adafruit.com/product/1928) | $0.36 |
-| **7** | Custom Printed PCB (5-pack share) | 1 | Dual-layer circuit board fabrication | $2.54 | [JLCPCB](https://jlcpcb.com/) | $2.54 |
-| **8** | Touch Pad Connector Headers | 4 | Placeholders for capacitive touch areas | $0.15 | [Adafruit #392](https://www.adafruit.com/product/392) | $0.60 |
+| Item No. | Item | Designator | Quantity | Purpose | Unit Price ($) | Total Price ($) | Vendor | Vendor Link |
+| :---: | :--- | :---: | :---: | :--- | :---: | :---: | :---: | :--- |
+| **1** | ESP32-S3 Microcontroller Module | U1 | 1 | Main MCU controller & USB MIDI interface | $4.50 | $4.50 | JLCPCB / LCSC | [JLCPCB Sourcing](https://jlcpcb.com/) |
+| **2** | Kailh Choc Low-Profile Switches | SW1–SW12 | 12 | Primary musical key switches | $0.75 | $9.00 | JLCPCB / LCSC | [JLCPCB Sourcing](https://jlcpcb.com/) |
+| **3** | SK6812 MINI-E RGB LEDs | D1–D12 | 12 | Per-key RGB backlight illumination | $0.20 | $2.40 | JLCPCB / LCSC | [JLCPCB Sourcing](https://jlcpcb.com/) |
+| **4** | 10k Slide Potentiometers | RV1, RV2 | 2 | Continuous analog parameter controls | $1.10 | $2.20 | JLCPCB / LCSC | [JLCPCB Sourcing](https://jlcpcb.com/) |
+| **5** | EC11 Rotary Encoders w/ Switch | SW13, SW14 | 2 | Parameter adjustment & navigation | $1.00 | $2.00 | JLCPCB / LCSC | [JLCPCB Sourcing](https://jlcpcb.com/) |
+| **6** | 1N4148 SOD-123 Diodes | D13–D24 | 12 | Matrix anti-ghosting switching diodes | $0.03 | $0.36 | JLCPCB / LCSC | [JLCPCB Sourcing](https://jlcpcb.com/) |
+| **7** | 1x01 Pin Headers (Touch Pads) | J1–J4 | 4 | Placeholders for capacitive touch areas | $0.15 | $0.60 | JLCPCB / LCSC | [JLCPCB Sourcing](https://jlcpcb.com/) |
+| **8** | Custom Printed PCB (Dual-Layer) | PCB | 1 | Circuit board fabrication (5-pack share) | $2.54 | $2.54 | JLCPCB | [JLCPCB Fabrication](https://jlcpcb.com/) |
 
 ---
 
